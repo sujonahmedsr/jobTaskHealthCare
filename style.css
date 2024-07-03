@@ -21,6 +21,10 @@ section{
     padding: 1.2rem 7%;
 }
 
+/* navbar and header section css  */
+header{
+    background: url(./Resources/headerBg.png);
+}
 nav{
     padding: 1rem 7%;
     display: flex;
@@ -113,6 +117,8 @@ nav button{
     margin-top: 2rem;
 }
 
+
+/* about us section css  */
 .weAre{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -218,7 +224,7 @@ nav button{
     border-radius: 12px;
 }
 
-
+/* faq section css  */
 .faq{
     max-width: 900px;
     margin: 2rem auto;
@@ -243,6 +249,8 @@ nav button{
     font-size: 18px;
 }
 
+
+/* .Testimonial section css  */
 .Testimonial{
     margin: 1rem 0;
     display: grid;
@@ -283,6 +291,11 @@ nav button{
     text-align: center;
 }
 
+
+/* offer section css  */
+.offersection{
+    background: url(./Resources/headerBg.png);
+}
 .offer{
     position: relative;
 }
@@ -342,6 +355,9 @@ nav button{
     display: flex;
     align-items: center;
 }
+
+
+/* footer section css  */
 
 footer img{
     margin-bottom: 2rem;
